@@ -1,0 +1,110 @@
+@media (min-width: 576px) {
+    body {
+        width: 100%;
+    }
+    .drop-down-menu {
+        position: absolute;
+        width: 45px;
+        top: 50px;
+        right: 10px;
+        margin-left: 100px;
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    } 
+    .item-li1, .item-li2, .item-li3, .item-li4 {
+        display: none !important;
+    }
+    .header-logo {
+        margin-right: 50px;
+    }
+    .container , .container2 , .container3 , .container4 {
+        text-align: center;
+    }
+    .main-contain , .main-contain2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-tamas , .main-search , .main-sapt {
+        width: 60%;
+    }
+
+
+
+
+}
+@media (min-width:768px) {
+    .header-logo {
+        margin-right: 200px;
+    }
+    .main-tamas , .main-search , .main-sapt {
+        width: 60%;
+    }
+}
+
+
+
+
+
+@media (min-width:992px) {
+    .drop-down-menu {
+        display: none !important;
+    }
+    .item-li1, .item-li2, .item-li3, .item-li4 {
+        display: inline-block !important;
+        padding-top: 5px;
+    }
+    .header-logo{
+        margin-right: 350px;
+    }
+    nav ul {
+        text-align: center;
+        margin-left: 100px;
+    }
+    .main-contain , .main-contain2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .main-tamas , .main-search , .main-sapt {
+        margin-left: 55px;
+        padding: 10px 10px;
+        width: 90%;
+    }
+    
+     
+   
+}
+
+
+
+
+
+@media (min-width:1200px) {
+    nav ul {
+        text-align: center;
+        margin-left: 400px;
+    }
+    .header-logo{
+        margin-right: 350px;
+    }
+    .item-li1, .item-li2, .item-li3, .item-li4 {
+        display: inline-block !important;
+        padding-top: 5px;
+    }
+}
+
+
+
+
+
